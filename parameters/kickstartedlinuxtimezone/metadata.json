@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "4bdd97b7-2291-4e60-888e-bf1145563a5c", 
+    "key": "kickstartedlinuxtimezone", 
+    "name": "Kickstarted Linux TimeZone", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "17a26da5-76cf-4bd1-8c9c-201a18bdf431", 
+    "fileName": "CentOS-8.5.2111-x86_64-boot.iso", 
+    "formatKey": "unknown", 
+    "key": "centos8bootiso", 
+    "md5": "3c7d769941e5565f06457e2de99696e8", 
+    "name": "CentOS8 Boot ISO", 
+    "remoteUri": null, 
+    "size": 827326464, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

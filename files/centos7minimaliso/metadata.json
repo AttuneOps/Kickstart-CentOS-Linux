@@ -1,0 +1,11 @@
+{
+    "externalUuid4": "d2bfefbd-308b-4f67-99d3-18ae554686dd", 
+    "fileName": "CentOS-7-x86_64-Minimal-2009.iso", 
+    "formatKey": "unknown", 
+    "key": "centos7minimaliso", 
+    "md5": "a4711c4fa6a1fb32bd555fae8d885b12", 
+    "name": "CentOS7 Minimal ISO", 
+    "remoteUri": "https://centos.mirror.serversaustralia.com.au/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso", 
+    "size": 1020264448, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

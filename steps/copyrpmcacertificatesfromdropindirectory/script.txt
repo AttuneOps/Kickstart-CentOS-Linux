@@ -1,0 +1,17 @@
+if [ ! -d "{kickstartedRpmCaCertificate}" ]
+then
+    echo "{kickstartedRpmCaCertificate} does not exist, skipping."
+else
+    cd "{kickstartedRpmCaCertificate}"
+    
+    NUMBER_FILES=$(ls -1q | wc -l)
+    echo "NUMBER_FILES=${NUMBER_FILES}"
+    
+    if [ "${NUMBER_FILES}" -eq "0" ]
+    then
+        echo "No files in {kickstartedRpmCaCertificate}, skipping."
+    else
+        echo "{kickstartedRpmCaCertificate} exists, copying it's contents to {kickstartWorkerBaseDir}/build-{kickstartedNode.fqn}/cacerts."
+        cp --verbose --recursive ./* "{kickstartWorkerBaseDir}/build-{kickstartedNode.fqn}/cacerts"
+    fi
+fi

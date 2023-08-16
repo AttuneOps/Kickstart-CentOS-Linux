@@ -1,0 +1,47 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "centos8bioskickstartconfig", 
+    "deployPath": "{kickstartWorkerBaseDir}/build-{kickstartedNode.fqn}", 
+    "enabled": true, 
+    "externalUuid4": "466b68b6-2586-43b5-a5b0-81fd12b68ce1", 
+    "key": "deploycentos8bioskickstartconfig", 
+    "makoFileNames": [
+        "ks.cfg"
+    ], 
+    "makoParameters": [
+        {
+            "name": "ksLinuxDiskFirstLetter", 
+            "parameterKey": "kickstarteddiskfirstletter", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "linuxRootUser", 
+            "parameterKey": "kickstartedlinuxrootuser", 
+            "parameterType": "c.s.s.b.phv.LinOsCred"
+        }, 
+        {
+            "name": "subnet", 
+            "parameterKey": "kickstartedsubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "kickstartedlinuxnode", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "targetTimeZone", 
+            "parameterKey": "kickstartedlinuxtimezone", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "rpmMirrorUrl", 
+            "parameterKey": "kickstartedrpmmirrorurl", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "Deploy CentOS8 BIOS Kickstart Config", 
+    "osCredKey": "kickstartworkerbuildlinuxuser", 
+    "serverKey": "kickstartworkerlinuxnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

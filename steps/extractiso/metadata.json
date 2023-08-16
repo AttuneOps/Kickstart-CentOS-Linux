@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "923cbfcb-e7d2-4196-b3f4-25bf0acaaa63", 
+    "interpreter": 1, 
+    "key": "extractiso", 
+    "name": "Extract ISO", 
+    "osCredKey": "kickstartworkerbuildlinuxuser", 
+    "serverKey": "kickstartworkerlinuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

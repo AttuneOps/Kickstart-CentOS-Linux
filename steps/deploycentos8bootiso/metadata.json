@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "centos8bootiso", 
+    "deployPath": "{kickstartWorkerBaseDir}/build-{kickstartedNode.fqn}", 
+    "enabled": true, 
+    "externalUuid4": "1706dc87-2452-455c-b392-52f2286aaf83", 
+    "key": "deploycentos8bootiso", 
+    "name": "Deploy CentOS8 Boot ISO", 
+    "osCredKey": "kickstartworkerbuildlinuxuser", 
+    "serverKey": "kickstartworkerlinuxnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

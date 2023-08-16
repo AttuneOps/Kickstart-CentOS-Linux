@@ -1,0 +1,6 @@
+{
+    "externalUuid4": "6372bea4-4199-4247-8bd5-5b4df9df22e7", 
+    "key": "centos8bioskickstartconfig", 
+    "name": "CentOS8 BIOS Kickstart Config", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

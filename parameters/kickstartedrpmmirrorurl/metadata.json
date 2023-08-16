@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "321c4fc9-66c3-4e3c-85f7-1a311691baa5", 
+    "key": "kickstartedrpmmirrorurl", 
+    "name": "Kickstarted RPM Mirror Url", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

@@ -1,0 +1,17 @@
+
+
+DIR="{kickstartWorkerBaseDir}/build-{kickstartedNode.fqn}"
+if [ -d "${DIR}" ]
+then
+    rm -rf "${DIR}" && echo "Removed ${DIR}"
+else
+    echo "No directory to remove."
+fi
+
+ISO="{kickstartWorkerBaseDir}/kickstart_{kickstartedNode.fqn}.iso"
+if [ -f "${ISO}" ]
+then
+    rm -fv "${ISO}"
+else
+    echo "No ISO to remove."
+fi
